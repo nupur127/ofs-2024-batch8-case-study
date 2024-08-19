@@ -1,0 +1,51 @@
+<!--
+ Copyright (c) 2014, 2024, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Registeration</h1>
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <oj-c-input-text label-hint="Enter First Name " value="{{firstname}} " ></oj-c-input-text>
+  </div>
+  </div>
+  <br>
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <oj-c-input-text label-hint="Enter Last Name"  value="{{lastname}}"></oj-c-input-text>
+  </div>
+  <br>
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <oj-c-input-text label-hint="Enter Usename" value="{{username}}"></oj-c-input-text>
+  </div>
+  <br>
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <oj-c-input-text label-hint="Enter Password" value="{{password}}"></oj-c-input-text>
+  </div>
+  <br>
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <oj-c-input-text label-hint="Enter Date Of Birth" value="{{dateofbirth}}"></oj-c-input-text>
+  </div>
+  <br>
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <oj-c-input-text label-hint="Email Id" value="{{emailid}}"></oj-c-input-text>
+  </div>
+  <br>
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <oj-c-input-number
+    value="{{phonenumber}}"
+    label-hint="Phone Number"
+    min="0"
+    max="9999999999"
+    step="0"></oj-c-input-number>
+  </div>
+  <br>
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <oj-c-input-text label-hint="Enter Address" value="{{address}}"></oj-c-input-text>
+  </div>
+  <div id="buttons-container">
+ </div>
+</br>
+    <div>
+      <oj-c-button on-oj-action="[[buttonAction]]" id="button1" label="Register"></oj-c-button>
+      </div>
+</div>

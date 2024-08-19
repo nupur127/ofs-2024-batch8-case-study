@@ -1,0 +1,30 @@
+<!--
+ Copyright (c) 2014, 2024, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div >
+  <h1>Dashboard Content Area</h1>
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <h4>Login</h4>
+    <oj-c-input-text value="{{username}}" label-hint="Enter Username"></oj-c-input-text>
+  </div>
+  </div>
+
+</br>
+
+  <div class="oj-sm-12 oj-md-6 oj-lg-6 oj-flex-item oj-sm-padding-2x-horizontal">
+    <oj-c-input-password
+      id="enablednovalue1"
+      label-hint="Enter Password"
+      value="{{password}}"
+      label-edge="inside"></oj-c-input-password>
+  </div>
+</br>
+<div id="buttons-container">
+ 
+  <div>
+    <oj-c-button on-oj-action="[[buttonAction]]" id="button1" label="Login"></oj-c-button>
+    
+  </div>
+</div>
